@@ -1,0 +1,40 @@
+/* Основные настройки */
+
+canvas {
+    filter: blur(100px);
+    opacity: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#background {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#view {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131212;
+    margin: 0;
+    /* overflow: hidden; */
+    padding: 20px;
+}

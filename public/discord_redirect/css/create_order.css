@@ -1,0 +1,65 @@
+/* Настройки лого дискорда по середине и надписи */
+
+@media (max-width: 767px) {
+    .discordlogoandtext {
+        transform: translate(-50%, -50%) scale(0.7) !important;
+        
+    }
+}
+
+
+
+@keyframes discordslide {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.discordlogoandtext {
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: 150px;
+    width: 600px;
+
+    animation-name: discordslide;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.discordlogo {
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.discordtext {
+    width: 600px;
+    position: fixed;
+    top: 111%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+    text-align: center;
+    color: #fff;
+    font-size: 47px;
+    font-family: 'Bebas Neue';
+}
+
+.discordlogoandtext a {
+    position: fixed;
+    height: 150px;
+    width: 600px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}

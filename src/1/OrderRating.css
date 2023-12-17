@@ -1,0 +1,22 @@
+
+
+h1.orderrating {
+    text-align: center;
+    /* color: #ffffff; */
+  }
+  
+  div.orderrating {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* p {
+    margin: 0;
+  } */
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  

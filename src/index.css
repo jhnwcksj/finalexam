@@ -1,0 +1,494 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.main-content {
+  width: 100%;
+  min-height: 100vh;  
+}
+
+/* index.css */
+
+.main-div-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f0f0f0; */
+}
+
+.second-login-page-div {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.action-menu {
+  text-align: center;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.not-selected-act {
+  background-color: #e0e0e0;
+  color: #333;
+  text-decoration: none;
+}
+
+.selected-act {
+  background-color: rgb(76, 76, 76);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.input-fields {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+label.token {
+  display: block;
+  margin-bottom: 8px;
+  color: #d0d0d0;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+.main-div-token-page {
+  margin-top: 20px;
+  
+  display: flex;
+  justify-content: center;
+}
+
+
+.second-div-token-page {
+  width: 86%;
+}
+
+
+
+.header-replace {
+  top: 0;
+  width: 100%;
+  background-color:#538b94;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height:200px;
+}
+
+
+.main-div-header {
+  width: 66%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo-link {
+  background-color: #0d2740;
+  color: white;
+  border-radius: 2%;
+  font-size:60px;
+  font-weight: bold;  
+  font-family: 'Arimo-Bold';  
+  padding: 50px 100px 50px 100px;
+}
+
+.logo-link:hover {  
+  text-decoration: none;
+}
+
+.header-link {
+  max-height: 50px;
+  /* background-color:azure; */
+  border-radius: 3px;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  padding: 10px 25px 10px 25px; 
+}
+
+
+
+
+.header-link:hover:hover {
+  text-decoration: none;
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan, 0 0 50px cyan,
+  0 0 100px cyan, 0 0 200px cyan;
+}
+
+.container-main {
+  width: 100%;
+  display: flex;  
+  justify-content: center;
+}
+
+.main-div-main {
+  width: 66%;  
+  margin-bottom: 50px;
+}
+
+.hello-user-main {
+  width: 100%;
+}
+
+.projects-list-main {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.projects-list-main img{
+  width: 200px;
+  border-radius: 5%;
+}
+
+.project-info {
+  width: 22%;
+}
+
+.about-group-main {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.featured {  
+  background: #fff;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  min-height: 450px;
+  padding: 45px 15px 15px;
+  position: relative;
+  width: 420px;
+}
+
+
+.about-group-main h2 {
+  /* background: url(./Images/bg-featured.png) repeat-x; */
+  color: #fff;
+  font-family: 'Comfortaa-Regular';
+  font-size: 20px;
+  font-weight: normal;
+  height: 47px;
+  letter-spacing: 0.1em;
+  left: 15px;
+  line-height: 47px;
+  margin: 0;
+  padding: 0 25px;
+  position: absolute;
+  text-transform: capitalize;
+  top: -14px;
+
+}
+
+.about-group-main h3 {
+  color: #354057;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  padding: 10px 0 0;
+  text-transform: none;
+}
+
+.about-group-main h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.about-group-main p {  
+  clear: both;
+  color: #464646;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  padding: 0;
+}
+
+.featured img {
+  display: block;
+  float: left;
+  margin: 10px 30px 25px 0;
+  padding: 0;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.featured img:hover {
+  scale: 1.1;
+  box-shadow: 0 0 5px antiquewhite,
+  0 0 25px antiquewhite, 0 0 50px antiquewhite,
+  0 0 100px antiquewhite;
+}
+
+.section-main {  
+  width: 460px;
+}
+
+.article-main {
+  min-height: 250px;
+  margin-bottom: 25px;
+  padding: 55px 15px 20px;
+  text-align: right;
+  background: #519194;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  float: none;
+  margin: 0;
+  padding: 0 15px;
+  position: relative;
+}
+
+.article-main p {
+  
+  color: #f5f5f5;
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 55px;
+  text-align: left;
+}
+.article-main, .newsletter a {
+  color: white;
+}
+
+.newsletter {
+  
+  height: 168px;
+  padding: 30px 15px 19px 214px;
+  position: relative;  
+  background: #519194;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  float: none;
+  margin-top: 20px;
+}
+
+.newsletter img {  
+  overflow: clip;
+  display: block;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -13px;
+  z-index: 5;
+}
+
+.newsletter p {  
+  color: #f5f5f5;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer {  
+  background: #4c8f96;
+  border-top: 1px solid #9bd9e0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info-text-footer p {
+  color: white;  
+  font-family: 'Comfortaa-Regular';
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}
+
+.container-about {
+  min-height: 70vh;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.skillPiece {
+  margin: 0 auto;
+  height: 350px;
+  padding: 20px 0 50px;
+  width: 960px;
+}
+
+.second-div-skill {  
+  margin: 0;
+  padding: 50px 0 0;
+}
+
+.MyScills {  
+  background: #fff;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  min-height: 220px;
+  padding: 45px 15px 15px;
+  position: relative;
+  width: 900px;
+}
+
+.MyScills h2 {  
+  /* background: url(./Images/bg-featured.png) repeat-x; */
+  color: #fff;
+  font-family: 'Comfortaa-Regular';
+  font-size: 20px;
+  font-weight: normal;
+  height: 47px;
+  letter-spacing: 0.1em;
+  left: 15px;
+  line-height: 47px;
+  text-align: center;
+  margin: 0;
+  padding: 0 25px;
+  position: absolute;
+  text-transform: capitalize;
+  top: -14px;
+}
+
+.MyScills img {  
+  display: block;
+  float: left;
+  margin: 30px 32px 10px 40px;
+  padding: 0;
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  overflow: clip;
+}
+
+.about-texts-container {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.news-container {
+  min-height: 70vh;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.news-text-container {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.input-command-admin {
+  width: 100%;
+  padding: 10px;
+  text-transform: capitalize;
+  font-family: 'Comfortaa-Regular';
+  font-size: 20px;
+}
+
+.enter-button {
+  background-color: #383938;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-family: 'Comfortaa-Regular';
+  font-size: 20px;
+}
+
+.enter-button:hover {
+  scale: 1.1;
+  text-transform: capitalize;
+  font-family: 'Comfortaa-Regular';
+  font-size: 20px;
+  box-shadow: 0 0 5px aliceblue,
+  0 0 25px aliceblue, 0 0 50px aliceblue;
+}
+
+
+.selecter-input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.menu-buttonn {
+  background-color: #383938;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-family: 'Comfortaa-Regular';
+  font-size: 20px;
+}
+
+.menu-dropdown textarea {
+  font-size: 16px; /* Измените на нужный вам размер шрифта */
+  width: 800px;   /* Измените на нужную вам высоту */
+}

@@ -1,0 +1,59 @@
+/* Настройки элементов левой полосы (всё значки по левую сторону экрана) */
+
+@keyframes lefttorightlogo {
+    0% {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.topleftlogo {
+    position: fixed;
+    transform: translateX(-80px);
+    opacity: 0;
+
+    animation-name: lefttorightlogo;
+    animation-duration: 1.6s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+
+    z-index: 1;
+}
+
+.youtubelogo {
+    position: fixed;
+    transform: translateX(-80px);
+    opacity: 0;
+
+    bottom: 60px;
+
+    animation-name: lefttorightlogo;
+    animation-duration: 2.1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+
+    z-index: 1;
+}
+
+.vklogo {
+    position: fixed;
+    transform: translateX(-80px);
+    opacity: 0;
+
+    bottom: 10px;
+
+    animation-name: lefttorightlogo;
+    animation-duration: 2.1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+
+    z-index: 1;
+}
+
+.toprightmenu {
+    display: none;
+}
